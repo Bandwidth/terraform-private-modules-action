@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  schemaVersion: v1.0.0
+  name: terraform-private-modules-action-location
+  description: Links to additional entities in the
+    terraform-private-modules-action repository.
+  annotations:
+    github.com/project-slug: Bandwidth/terraform-private-modules-action
+spec:
+  targets:
+    - ./component.yaml
